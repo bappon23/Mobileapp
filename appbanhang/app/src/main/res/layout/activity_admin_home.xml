@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background2"
+    tools:context=".app.activity.AdminHomeActivity">
+
+    <TextView
+        android:id="@+id/textViewWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng đến với trang Admin"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnProductList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách sản phẩm"
+        android:layout_below="@id/textViewWelcomeMessage"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button_primary"/>
+
+    <Button
+        android:id="@+id/btnUserList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách người dùng"
+        android:layout_below="@id/btnProductList"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button_secondary"/>
+
+</RelativeLayout>

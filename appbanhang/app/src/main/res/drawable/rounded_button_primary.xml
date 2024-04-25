@@ -1,0 +1,6 @@
+<!-- rounded_button_primary.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="8dp" /> <!-- Điều chỉnh bán kính để tạo hình dạng bo tròn -->
+    <solid android:color="#3F51B5" /> <!-- Màu nền cho nút, có thể thay đổi thành màu bạn muốn -->
+</shape>

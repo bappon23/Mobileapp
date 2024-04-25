@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".app.activity.AddProductActivity">
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_below="@id/editTextProductName"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL hình ảnh"
+        android:inputType="text"
+        android:layout_below="@id/editTextDescription"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextImage"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loại"
+        android:inputType="text"
+        android:layout_below="@id/editTextPrice"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:layout_below="@id/editTextType"/>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search"
+        android:title="Search" />
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_cart_24"
+        android:title="Cart" />
+
+    <!-- Thêm mục menu cho nút đăng xuất -->
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+</menu>
